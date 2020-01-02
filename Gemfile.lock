@@ -129,6 +129,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
+    oj (3.10.0)
     pg (1.2.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
@@ -260,6 +261,7 @@ DEPENDENCIES
   honeybadger
   launchy
   listen
+  oj
   pg
   pry-byebug
   pry-rails
@@ -282,7 +284,7 @@ DEPENDENCIES
   webpacker
 
 RUBY VERSION
-   ruby 2.6.4p104
+   ruby 2.6.3p62
 
 BUNDLED WITH
-   2.1.0
+   2.1.2

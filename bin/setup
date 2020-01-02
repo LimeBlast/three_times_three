@@ -26,25 +26,3 @@ fi
 # Only if this isn't CI
 # if [ -z "$CI" ]; then
 # fi
-
-if heroku join --app three-times-three-staging > /dev/null 2>&1; then
-  git remote add staging git@heroku.com:three-times-three-staging.git || true
-  printf 'You are a collaborator on the "three-times-three-staging" Heroku app
-'
-else
-  printf 'Ask for access to the "three-times-three-staging" Heroku app
-'
-fi
-
-
-if heroku join --app three-times-three-production > /dev/null 2>&1; then
-  git remote add production git@heroku.com:three-times-three-production.git || true
-  printf 'You are a collaborator on the "three-times-three-production" Heroku app
-'
-else
-  printf 'Ask for access to the "three-times-three-production" Heroku app
-'
-fi
-
-
-git config heroku.remote staging
