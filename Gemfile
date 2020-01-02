@@ -54,3 +54,4 @@ gem 'spring-commands-rspec', group: :development
 gem 'rspec-rails', '~> 3.6', group: [:development, :test]
 gem 'shoulda-matchers', group: :test
 gem 'bullet', group: [:development, :test]
+gem 'factory_bot_rails', group: [:development, :test]
