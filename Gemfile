@@ -50,3 +50,6 @@ end
 gem "suspenders", group: [:development, :test]
 
 gem 'oj'
+gem 'spring-commands-rspec', group: :development
+gem 'rspec-rails', '~> 3.6', group: [:development, :test]
+gem 'shoulda-matchers', group: :test
